@@ -5,6 +5,7 @@
   font-size: 16px;
 }
 
+/* main parts*/
 .nav-bar {
   width: 100%;
   background-color: rgba(38, 37, 37, 0.553);
@@ -13,7 +14,9 @@
   justify-content: flex-end;
   gap: 30px;
   justify-content: space-between;
-  height: 45px;
+  height: 40px;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
 }
 
 .nav-list {
@@ -26,16 +29,21 @@
   background-color: rgba(106, 117, 220, 0.553);
 }
 
-.nav-contact {
-  margin-right: 50px;
+.section-container {
+  display: grid;
+
+  justify-items: stretch;
+  align-self: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* column-gap: 10px; */
+  /* margin-left: 10%; */
+  margin-bottom: 10px;
 }
 
-.nav-welcome {
-  margin-left: 30px;
-  font-size: 25px;
-  margin-bottom: 7px;
-}
-
+/* section part */
 .section-1 {
   height: 80vh;
   background-color: blueviolet;
@@ -48,4 +56,15 @@
 .section-3 {
   height: 80vh;
   background-color: rgb(226, 43, 52);
+}
+
+/* individual items */
+.nav-contact {
+  margin-right: 50px;
+}
+
+.nav-welcome {
+  margin-left: 30px;
+  font-size: 25px;
+  margin-bottom: 7px;
 }
