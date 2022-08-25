@@ -2,15 +2,50 @@
   margin: 0;
   padding: 0;
   font-style: sans-serif;
+  font-size: 16px;
 }
 
 .nav-bar {
   width: 100%;
   background-color: rgba(38, 37, 37, 0.553);
-  display: ;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 30px;
+  justify-content: space-between;
+  height: 45px;
 }
 
+.nav-list {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 10px;
+}
 .copyright {
   width: 100%;
   background-color: rgba(106, 117, 220, 0.553);
+}
+
+.nav-contact {
+  margin-right: 50px;
+}
+
+.nav-welcome {
+  margin-left: 30px;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.section-1 {
+  height: 80vh;
+  background-color: blueviolet;
+}
+.section-2 {
+  height: 80vh;
+  background-color: rgb(67, 226, 43);
+}
+
+.section-3 {
+  height: 80vh;
+  background-color: rgb(226, 43, 52);
 }
