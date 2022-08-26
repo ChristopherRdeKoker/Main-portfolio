@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-style: sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* main parts*/
@@ -15,22 +15,23 @@ body {
 }
 .nav-bar {
   width: 100%;
-  background-color: rgba(35, 32, 32, 0.334);
+  background-color: rgba(38, 38, 39, 0.663);
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
   gap: 30px;
   justify-content: space-between;
   height: 35px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.868);
   margin-bottom: 15px;
+  padding-top: 2px;
   border-radius: 3px;
 }
 
 .nav-list {
   display: flex;
   gap: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  /* justify-items: center; */
 }
 
 .section-container {
@@ -103,6 +104,8 @@ body {
   margin-left: 30px;
   font-size: 25px;
   margin-bottom: 7px;
+  margin-top: 33px;
+  /* margin-top: 2px; */
 }
 
 .copyright {
@@ -119,4 +122,8 @@ body {
   margin: 40px;
   background-color: rgba(238, 228, 211, 0.235);
   border-radius: 4px;
+}
+
+.nav-github:link {
+  new: tab;
 }
