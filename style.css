@@ -6,6 +6,10 @@
 }
 
 /* main parts*/
+
+body {
+  background-color: aliceblue;
+}
 .nav-bar {
   width: 100%;
   background-color: rgba(38, 37, 37, 0.553);
@@ -17,6 +21,7 @@
   height: 40px;
   border-bottom: 2px solid black;
   margin-bottom: 10px;
+  border-radius: 3px;
 }
 
 .nav-list {
@@ -41,21 +46,29 @@
   /* column-gap: 10px; */
   /* margin-left: 10%; */
   margin-bottom: 10px;
+  border-radius: 5px;
+  gap: 7px;
 }
 
 /* section part */
 .section-1 {
   height: 80vh;
-  background-color: blueviolet;
+  background-color: rgba(193, 151, 233, 0.334);
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(85, 84, 84, 0.5);
 }
 .section-2 {
   height: 80vh;
-  background-color: rgb(67, 226, 43);
+  background-color: rgba(144, 231, 130, 0.4);
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(85, 84, 84, 0.5);
 }
 
 .section-3 {
   height: 80vh;
-  background-color: rgb(226, 43, 52);
+  background-color: rgba(233, 128, 133, 0.383);
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgba(85, 84, 84, 0.5);
 }
 
 /* individual items */
