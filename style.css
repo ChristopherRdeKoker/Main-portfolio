@@ -12,6 +12,7 @@ body {
   /* background-image: linear-gradient(to top left, #f9fbc8 0%, #ca4e52 150%); */
   /* background-image: linear-gradient(to top left, #6dd7f179 0%, #ef625242 100%);*/
   background-image: linear-gradient(to top left, #50a2f3d3 0%, #fffdfd 100%);
+  font-family: 'Inter', sans-serif;
 }
 .nav-bar {
   width: 100%;
@@ -122,8 +123,25 @@ body {
   margin: 40px;
   background-color: rgba(238, 228, 211, 0.235);
   border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
 }
 
-.nav-github:link {
+/* .nav-github:link {
   new: tab;
+} */
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
