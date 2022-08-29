@@ -10,11 +10,12 @@ body {
   font-family: 'Inter', sans-serif;
   color: rgb(237, 221, 221);
   font-size: 22px;
+  background-color: rgb(22, 22, 22);
 }
 
 .background-section-1 {
   background-image: url('./img/wooden-minimasltic.jpg');
-  background-image: cover;
+  background-size: cover;
 }
 /* MAIN CNOTAINERS */
 .nav-container {
@@ -32,7 +33,7 @@ body {
   margin-right: auto;
   /* margin-left: auto;
   margin-right: auto; */
-  height: 120vh;
+  height: 100vh;
 }
 
 /* SMALLER ITEMS */
@@ -42,10 +43,17 @@ body {
   gap: 20px;
   margin-right: 50px;
   margin-left: 50px;
+  cursor: pointer;
 }
 
 .nav-welcome-message {
   font-family: 'Dancing Script', cursive;
   font-size: 48px;
   margin-left: 40px;
+}
+
+.nav-github:link,
+.nav-github:visited {
+  text-decoration: none;
+  color: rgb(237, 221, 221);
 }
