@@ -90,8 +90,6 @@ body {
 }
 
 .about-modal {
-  /* display: none; */
-
   background-color: white;
   width: 50vh;
   position: absolute;
@@ -104,6 +102,6 @@ body {
   border-radius: 4px;
 }
 
-.hidden {
+.close-modal {
   display: none;
 }

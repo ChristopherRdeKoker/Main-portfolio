@@ -1,19 +1,22 @@
 //shortcuts
-const aboutInfo = document.querySelector('.nav-about');
+const navAboutLink = document.querySelector('.nav-about');
 const modalAbout = document.querySelector('.about-modal');
 
 //function
-const hideAboutCard = function (e) {
-  e.preventDefault();
-  if (modalAbout.classList)
+const initShowModalAbout = function () {
+  if (modalAbout.classList.contains('close-modal')) {
+    modalAbout.classList.remove('close-modal');
+  }
+};
+
+const hideModalAbout = function () {
+  if (!modalAbout.classList.contains('close-modal')) {
+    modalAbout.classList.add('close-modal');
+  }
 };
 
 //init
-modalAbout.classList.add('hidden');
+initShowModalAbout();
+////////////////////////////////////////////////
 
-//Event listeners
-aboutInfo.addEventListener('click', function (e) {
-  e.preventDefault();
-  modalAbout.classList.toggle('hidden');
-
-});
+//event listeners
