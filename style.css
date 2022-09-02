@@ -16,6 +16,8 @@ body {
 .background-section-1 {
   background-image: url('./img/wooden-minimasltic.jpg');
   background-size: cover;
+  position: relative;
+  display: grid;
 }
 /* MAIN CNOTAINERS */
 .nav-container {
@@ -85,4 +87,17 @@ body {
 .home-page:active {
   text-decoration: none;
   text-shadow: 2px 2px rgba(232, 45, 32, 0.692);
+}
+
+.hidden-about-info-card {
+  display: none;
+  background-color: white;
+  width: 50vh;
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  /* justify-content: center;
+  align-content: center; */
+  justify-self: center;
+  align-self: center;
 }
