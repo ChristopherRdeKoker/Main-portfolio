@@ -99,11 +99,8 @@ body {
   justify-self: center;
   align-self: center;
   border-radius: 4px;
-}
-
-.showModal {
   display: block;
-  animation: fadeIn 4s;
+  animation: fadeIn 2s;
 }
 
 .hideModal {
@@ -117,9 +114,15 @@ body {
   0% {
     opacity: 0;
   }
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
-@keyframes fadeOut {
+/* @keyframes fadeOut {
   100% {
     opacity: 0;
   }
@@ -130,12 +133,12 @@ body {
 
 @keyframes slide-up {
   0% {
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
   100% {
     transform: translateY(0%);
   }
-}
+} */
 
 .hidden {
   display: none;

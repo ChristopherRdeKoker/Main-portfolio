@@ -36,9 +36,5 @@ navContact.addEventListener('mouseleave', function (e) {
 
 navAboutLink.addEventListener('click', function (e) {
   e.preventDefault();
-
-  if ((modalAbout.classList.contains = 'hidden')) {
-    modalAbout.classList.add('showModal');
-    modalAbout.classList.remove('hidden');
-  }
+  modalAbout.classList.toggle('hidden');
 });
