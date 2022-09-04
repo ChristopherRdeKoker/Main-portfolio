@@ -90,6 +90,7 @@ body {
 }
 
 .about-modal {
+  display: flex;
   background-color: white;
   width: 50vh;
   position: absolute;
