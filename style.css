@@ -90,33 +90,32 @@ body {
 }
 
 .about-modal {
-  display: flex;
   background-color: white;
   width: 50vh;
   position: absolute;
   width: 450px;
   height: 600px;
-  /* justify-content: center;
-  align-content: center; */
+
   justify-self: center;
   align-self: center;
   border-radius: 4px;
+  animation: fadeIn 3s;
 }
 
 .close-modal {
   display: none;
 }
 
-@keyframes fade-in {
+@keyframes fadeIn {
   100% {
-    opacity: 0;
+    opacity: 1;
   }
   0% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
-@keyframes fade-out {
+@keyframes fadeOut {
   100% {
     opacity: 0;
   }
