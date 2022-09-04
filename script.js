@@ -5,16 +5,11 @@ const navContact = document.querySelector('.nav-contact');
 const backgroundSection1 = document.querySelector('.background-section-1');
 
 //function
-const showModalAbout = function () {
-  modalAbout.classList.remove('close-modal');
-};
+// const displayToNone = function () {
+//   modalAbout.style.display = 'none';
+// };
 
-const hideModalAbout = function () {
-  modalAbout.classList.add('close-modal');
-};
-
-//init
-hideModalAbout();
+// displayToNone();
 ////////////////////////////////////////////////
 
 //color nav items
@@ -38,13 +33,12 @@ navContact.addEventListener('mouseleave', function (e) {
 
 ///////////////////////////////////////////////////////////////
 //event listeners
-//Nav-about
+
 navAboutLink.addEventListener('click', function (e) {
   e.preventDefault();
 
-  if (modalAbout.classList.contains('close-modal')) {
-    showModalAbout();
-  } else {
-    hideModalAbout();
+  if ((modalAbout.classList.contains = 'hidden')) {
+    modalAbout.classList.add('showModal');
+    modalAbout.classList.remove('hidden');
   }
 });
