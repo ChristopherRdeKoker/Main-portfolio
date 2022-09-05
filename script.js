@@ -5,9 +5,10 @@ const navContact = document.querySelector('.nav-contact');
 const modalContact = document.querySelector('.contact-modal');
 const backgroundSection1 = document.querySelector('.background-section-1');
 
-//function
+// function
 // const displayToNone = function () {
 //   modalAbout.style.display = 'none';
+//   modalContact.style.display = 'none';
 // };
 
 // displayToNone();
@@ -54,17 +55,13 @@ navContact.addEventListener('click', function (e) {
   modalContact.classList.toggle('hidden');
 });
 
-// backgroundSection1.addEventListener('click', function (e) {
-//   if (
-//     modalAbout.classList.contains('hidden') &&
-//     modalContact.classList.contains('hidden')
-//   )
-//     return;
-//   if (!modalAbout.classList.contains('hidden')) {
-//     modalAbout.classList.add('hidden');
-//   }
-//   if (!modalContact.classList.contains('hidden')) {
-//     modalContact.classList.add('hidden');
-//   }
-//   return;
-// });
+document.addEventListener('keydown', function (e) {
+  if (
+    e.key === 'Escape' &&
+    !modalContact.classList.contains('hidden') |
+      !modalAbout.classList.contains('hidden')
+  ) {
+    modalContact.classList.add('hidden');
+    modalAbout.classList.add('hidden');
+  }
+});
