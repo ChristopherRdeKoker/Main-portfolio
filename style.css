@@ -130,7 +130,7 @@ body {
     opacity: 0;
   }
   0% {
-    transform: translateY(50%);
+    transform: translateY(40%);
   }
   100% {
     transform: translateY(0%);

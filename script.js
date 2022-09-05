@@ -2,6 +2,7 @@
 const navAboutLink = document.querySelector('.nav-about');
 const modalAbout = document.querySelector('.about-modal');
 const navContact = document.querySelector('.nav-contact');
+const modalContact = document.querySelector('.contact-modal');
 const backgroundSection1 = document.querySelector('.background-section-1');
 
 //function
@@ -37,4 +38,9 @@ navContact.addEventListener('mouseleave', function (e) {
 navAboutLink.addEventListener('click', function (e) {
   e.preventDefault();
   modalAbout.classList.toggle('hidden');
+});
+
+navContact.addEventListener('click', function (e) {
+  e.preventDefault();
+  modalContact.classList.toggle('hidden');
 });
