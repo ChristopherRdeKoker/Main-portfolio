@@ -35,12 +35,21 @@ navContact.addEventListener('mouseleave', function (e) {
 ///////////////////////////////////////////////////////////////
 //event listeners
 
+//attempting to fix modal conflicts [done]
 navAboutLink.addEventListener('click', function (e) {
   e.preventDefault();
+
+  if (!modalContact.classList.contains('hidden')) {
+    modalContact.classList.add('hidden');
+  }
   modalAbout.classList.toggle('hidden');
 });
 
 navContact.addEventListener('click', function (e) {
   e.preventDefault();
+
+  if (!modalAbout.classList.contains('hidden')) {
+    modalAbout.classList.add('hidden');
+  }
   modalContact.classList.toggle('hidden');
 });
