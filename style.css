@@ -148,7 +148,7 @@ body {
   }
 }
 
-/* @keyframes fadeOut {
+@keyframes fadeOut {
   100% {
     opacity: 0;
   }
@@ -156,7 +156,7 @@ body {
     opacity: 1;
   }
 }
-
+/*
 @keyframes slide-up {
   0% {
     transform: translateY(50%);
@@ -166,6 +166,12 @@ body {
   }
 } */
 
-.hidden {
+/* .hidden {
   display: none;
+} */
+
+.hidden {
+  /* visibility: hidden; */
+  opacity: 0;
+  animation: fadeOut 1.2s;
 }

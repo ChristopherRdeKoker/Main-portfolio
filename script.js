@@ -53,3 +53,18 @@ navContact.addEventListener('click', function (e) {
   }
   modalContact.classList.toggle('hidden');
 });
+
+// backgroundSection1.addEventListener('click', function (e) {
+//   if (
+//     modalAbout.classList.contains('hidden') &&
+//     modalContact.classList.contains('hidden')
+//   )
+//     return;
+//   if (!modalAbout.classList.contains('hidden')) {
+//     modalAbout.classList.add('hidden');
+//   }
+//   if (!modalContact.classList.contains('hidden')) {
+//     modalContact.classList.add('hidden');
+//   }
+//   return;
+// });
