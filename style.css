@@ -10,7 +10,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: rgb(237, 221, 221);
   font-size: 22px;
-  background-color: rgb(22, 22, 22);
+  background-color: rgb(83, 83, 83);
 }
 
 .background-section-1 {
@@ -25,17 +25,18 @@ body {
   justify-content: space-between;
   height: 45px;
   border-bottom: 2px solid rgb(177, 173, 173);
-  text-shadow: 2px 1px 2px rgb(175, 172, 172);
+  /* text-shadow: 2px 1px 2px rgb(175, 172, 172); */
   align-items: center;
   /* gap: 20px; */
 }
 .intro-container {
-  width: 60%;
+  /* width: 60%; */
   margin-left: auto;
   margin-right: auto;
   /* margin-left: auto;
   margin-right: auto; */
   height: 100vh;
+  display: flex;
 }
 
 /* SMALLER ITEMS */
@@ -46,6 +47,7 @@ body {
   margin-right: 50px;
   margin-left: 50px;
   cursor: pointer;
+  color: rgb(237, 221, 221);
 }
 
 .nav-welcome-message {
@@ -92,7 +94,6 @@ body {
 .about-modal {
   background-color: white;
 
-  width: 50vh;
   position: absolute;
   width: 450px;
   height: 600px;
@@ -106,7 +107,6 @@ body {
 
 .contact-modal {
   background-color: white;
-  width: 50vh;
   position: absolute;
   width: 450px;
   height: 600px;
@@ -116,6 +116,17 @@ body {
   border-radius: 4px;
   display: block;
   animation: fadeIn 1.2s;
+}
+
+.intro-container-card {
+  background-color: rgba(203, 227, 235, 0.425);
+  width: 1000px;
+  height: 600px;
+
+  display: block;
+  justify-self: center;
+  align-self: center;
+  border-radius: 2px;
 }
 
 .hideModal {
