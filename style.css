@@ -31,11 +31,12 @@ body {
 }
 .intro-container {
   /* width: 60%; */
+
   margin-left: auto;
   margin-right: auto;
   /* margin-left: auto;
   margin-right: auto; */
-  height: 80vh;
+  /* height: 80vh; */
   display: grid;
   /* justify-content: center;
   align-content: center; */
@@ -168,15 +169,17 @@ body {
 /* //////////////////////////////////////// */
 /* INTRO SECTION */
 .intro-container-card {
+  margin-top: 40px;
   background-color: rgba(203, 227, 235, 0.425);
-  width: 1000px;
-  height: 700px;
+  width: 800px;
+  height: 570px;
 
   display: grid;
   justify-self: center;
   align-self: center;
   border-radius: 20.5px;
   grid-template-rows: 20% 80%;
+  margin-bottom: 20px;
 }
 
 .intro-container-heading {
@@ -211,13 +214,25 @@ body {
   text-shadow: 2px 2px rgba(10, 9, 9, 0.529);
   color: rgb(197, 45, 45);
 
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
 .intro-paragraph {
   line-height: 1.6;
   text-shadow: 2px 2px rgba(10, 9, 9, 0.529);
-  margin-bottom: 14px;
+  margin-bottom: 20px;
   font-size: 20px;
+}
+
+.blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+/* }
+ /////////////////////////
+ PROJECT CONTAINER */
+
+.project-container {
+  margin-top: 20px;
 }

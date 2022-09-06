@@ -4,12 +4,14 @@ const modalAbout = document.querySelector('.about-modal');
 const navContact = document.querySelector('.nav-contact');
 const modalContact = document.querySelector('.contact-modal');
 const backgroundSection1 = document.querySelector('.background-section-1');
-
+const introContainerCard = document.querySelector('.intro-container-card');
 // function
 // const displayToNone = function () {
 //   modalAbout.style.display = 'none';
 //   modalContact.style.display = 'none';
 // };
+
+const addBlur = function () {};
 
 // displayToNone();
 ////////////////////////////////////////////////
