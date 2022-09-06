@@ -98,7 +98,7 @@ body {
   background-color: white;
 
   position: absolute;
-  width: 450px;
+  width: 500px;
   height: 600px;
 
   justify-self: center;
@@ -106,12 +106,13 @@ body {
   border-radius: 4px;
   display: block;
   animation: fadeIn 1.2s;
+  margin-top: 111px;
 }
 
 .contact-modal {
   background-color: white;
   position: absolute;
-  width: 450px;
+  width: 500px;
   height: 600px;
 
   justify-self: center;
@@ -119,6 +120,7 @@ body {
   border-radius: 4px;
   display: block;
   animation: fadeIn 1s;
+  margin-top: 111px;
 }
 
 /* .hideModal {
