@@ -18,6 +18,7 @@ body {
   background-size: cover;
   position: relative;
   display: grid;
+  height: 90vh;
 }
 /* MAIN CONTAINERS */
 .nav-container {
@@ -171,7 +172,7 @@ body {
 /* //////////////////////////////////////// */
 /* INTRO SECTION */
 .intro-container-card {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   background-color: rgba(230, 240, 243, 0);
   width: 800px;
   height: 570px;
