@@ -5,14 +5,23 @@ const navContact = document.querySelector('.nav-contact');
 const modalContact = document.querySelector('.contact-modal');
 const backgroundSection1 = document.querySelector('.background-section-1');
 const introContainerCard = document.querySelector('.intro-container-card');
+// const introParagraph = document.querySelector('.intro-paragraph');
+
 // function
 // const displayToNone = function () {
 //   modalAbout.style.display = 'none';
 //   modalContact.style.display = 'none';
 // };
 
-const addBlur = function () {};
+// const addBlur = function () {
+//   introContainerCard.classList.add('blur');
+//   // introParagraph.classList.add('blur');
+// };
 
+// const removeBlur = function () {
+//   introContainerCard.classList.remove('blur');
+// };
+// // addBlur();
 // displayToNone();
 ////////////////////////////////////////////////
 
@@ -67,3 +76,4 @@ document.addEventListener('keydown', function (e) {
     modalAbout.classList.add('hidden');
   }
 });
+/////////////////////////////////////////////

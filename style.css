@@ -170,7 +170,7 @@ body {
 /* INTRO SECTION */
 .intro-container-card {
   margin-top: 40px;
-  background-color: rgba(203, 227, 235, 0.425);
+  background-color: rgba(230, 240, 243, 0);
   width: 800px;
   height: 570px;
 
@@ -184,7 +184,7 @@ body {
 
 .intro-container-heading {
   /* gap: 20px; */
-  font-size: 50px;
+  font-size: 55px;
   font-family: 'Inter', sans-serif;
   align-items: center;
   justify-content: center;
@@ -226,9 +226,10 @@ body {
 }
 
 .blur {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(35px);
+  -webkit-filter: blur(35px);
 }
+
 /* }
  /////////////////////////
  PROJECT CONTAINER */
